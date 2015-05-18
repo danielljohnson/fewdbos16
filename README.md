@@ -8,7 +8,8 @@ FEWD Outline
         - Browser -> DNS -> Server
         - Different types of HTTP requests
 - Intro to web development
-    - Browser vs. server code & front-end vs. back-end development
+    - Browser vs. server code
+    - Front-end vs. Back-end development
     - What are HTML, CSS and JavaScript
     - What tools to front-end developers use
 - HTML code along using codepen
