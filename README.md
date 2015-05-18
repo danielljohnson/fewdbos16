@@ -5,6 +5,8 @@ FEWD Outline
 
 - Basics of how the web works
 	- How does a browser render a webpage
+        - Browser -> DNS -> Server
+        - Different types of HTTP requests
 - Intro to web development
     - Browser vs. server code & front-end vs. back-end development
     - What are HTML, CSS and JavaScript
