@@ -28,3 +28,26 @@ FEWD Outline
 #### Homework
 
 - Code your resume in HTML markup
+
+### Session 02
+
+- Doctypes and HTML validation
+- Block and inline elements
+- HTML structure tags
+    - divs, spans
+- Common HTML attributes
+    - id, class
+- HTML5 structure tags
+    - section, article, header, footer
+- CSS code along
+    - syntax and terminology
+    - selectors
+    - colors
+    - font styles
+- CSS box model
+    - width, height, margin, padding, border
+
+#### Exercise
+
+- Update your resume using CSS
+- Website based on design
