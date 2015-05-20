@@ -50,4 +50,4 @@ FEWD Outline
 #### Exercise
 
 - Update your resume using CSS
-- Website based on design
+- Website based on given design
