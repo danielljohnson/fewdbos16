@@ -4,16 +4,16 @@ FEWD Outline
 ### Session 01
 
 - Basics of how the web works
-	- How does a browser render a webpage
-        - Browser -> DNS -> Server
-        - Different types of HTTP requests
+	- how does a browser render a webpage
+        - browser -> DNS -> Server
+        - different types of HTTP requests
 - Intro to web development
-    - Browser vs. server code
-    - Front-end vs. Back-end development
-    - What are HTML, CSS and JavaScript
-    - What tools to front-end developers use
+    - browser vs. server code
+    - front-end vs. Back-end development
+    - what are HTML, CSS and JavaScript
+    - what tools to front-end developers use
 - HTML code along using codepen
-    - Hello world to show how tags give meaning to content
+    - hello world to show how tags give meaning to content
     - HTML syntax
     - p, ul, ol, li, h1..h3
     - links
@@ -46,8 +46,29 @@ FEWD Outline
     - font styles
 - CSS box model
     - width, height, margin, padding, border
+    - creating boxes part 2 (pair programming)
 
 #### Exercise
 
+- Creating boxes part 2 (pair programming challenge)
+
+#### Homework
+
 - Update your resume using CSS
 - Website based on given design
+
+### Session 03
+
+- External stylesheets
+- CSS selectors in more detail
+- CSS positioning
+    - static, relative, absolute, fixed
+    - creating boxes part 2 (pair programming)
+- Column layouts
+    - float/clear
+    - inline-block
+    - creating layouts (pair programming)
+
+#### Homework
+
+- http://mainequarterly.com

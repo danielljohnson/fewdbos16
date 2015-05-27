@@ -1,0 +1,39 @@
+/* select all elements */
+* {
+    font-family: helvetica;
+}
+
+/* element */
+p {
+    color: red;
+}
+
+/* element, element, ... */
+p, a, li, span {
+    color: red;
+}
+
+/* id */
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* class */
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* :hover */
+a:hover {
+    color: red;
+}
+
+/*
+
+http://www.w3schools.com/cssref/css_selectors.asp
+
+https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors
+
+*/
