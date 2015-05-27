@@ -48,10 +48,6 @@ FEWD Outline
     - width, height, margin, padding, border
     - creating boxes part 2 (pair programming)
 
-#### Exercise
-
-- Creating boxes part 2 (pair programming challenge)
-
 #### Homework
 
 - Update your resume using CSS
