@@ -1,0 +1,87 @@
+/*Basic box styling*/
+
+.box {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 2px;
+  background-color: steelblue;
+  text-align: center;
+  line-height: 3em;
+  color: white;
+  font-weight: bold;
+}
+
+.large-box {
+  width: 600px;
+  height: 200px;
+  padding: 10px;
+  background-color: lightgrey;
+}
+
+/*Positioning styling*/
+
+.static {
+  position: static;
+  background-color: seagreen;
+}
+
+.relative {
+  position: relative;
+  background-color: crimson;
+  top: 10px;
+  left: 10px;
+}
+
+.absolute {
+  position: absolute;
+  background-color: gold;
+  top: 10px;
+  right: 10px;
+}
+
+.fixed {
+  background-color: indigo;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+/*Z-Index*/
+
+.box.one,
+.box.two,
+.box.three {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.one {
+  z-index: 1;
+}
+
+.two {
+  background-color: mediumseagreen;
+  right: 50px;
+  top: 50px;
+}
+
+.three {
+  background-color: gold;
+  right: 100px;
+  top: 100px;
+}
+
+
+/*Adding a little margin to put space between examples */
+
+.example {
+  margin-bottom: 50px;
+}
+
+h2 span {
+  font-size: 16px;
+}
+
+/*http://www.w3schools.com/cssref/css_colorsfull.asp*/
