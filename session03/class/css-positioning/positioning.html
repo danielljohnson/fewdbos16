@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+  <title>CSS Positioning Examples</title>
+  <link rel="stylesheet" type="text/css" href="positioning_style.css">
+</head>
+<body>
+
+<div class="example" id="one">
+  <h2>Static positioning: <span>"I'm right where I'm supposed to be"</span></h2>
+
+  <div class="box">1</div>
+  <div class="box">2</div>
+  <div class="box">3</div>
+  <div class="box static">4</div>
+  <div class="box">5</div>
+  <div class="box">6</div>
+  <div class="box">7</div>
+</div>
+
+<div class="example" id="two">
+  <h2>Relative positioning: <span>"I'm relative to where everyone else thinks I am"</span></h2>
+
+  <div class="box">1</div>
+  <div class="box">2</div>
+  <div class="box">3</div>
+  <div class="box relative">4</div>
+  <div class="box">5</div>
+  <div class="box">6</div>
+  <div class="box">7</div>
+</div>
+
+<div class="example" id="three">
+  <h2>Absolute positioning: <span>"I will absolutely be in this place"</span></h2>
+
+  <div class="box">1</div>
+  <div class="box">2</div>
+  <div class="box">3</div>
+  <div class="box absolute">4</div>
+  <div class="box">5</div>
+  <div class="box">6</div>
+  <div class="box">7</div>
+</div>
+
+<div class="example" id="four">
+  <h2>Absolute positioning inside relative positioning: <span>"I will absolutely be in this place relative to you"</span></h2>
+
+  <div class="large-box relative">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+    <div class="box absolute">5</div>
+    <div class="box">6</div>
+  </div>
+</div>
+
+<div class="example" id="five">
+  <h2>Fixed positioning: <span>"You will always see me. No really, try scrolling."</span></h2>
+
+  <div class="box fixed">Fixed</div>
+</div>
+
+<div class="example" id="six">
+  <h2>Z-Index: <span>"I win priority!"</span></h2>
+
+  <div class="box one">1</div>
+  <div class="box two">2</div>
+  <div class="box three">3</div>
+</div>
+
+</body>
+</html>
