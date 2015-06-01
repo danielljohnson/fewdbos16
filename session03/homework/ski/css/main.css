@@ -1,0 +1,102 @@
+body {
+    background: #333;
+    font-family: helvetica;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    background: #eee;
+}
+
+.sidebar {
+    clear: left;
+    float: left;
+    width: 280px;
+    background: #eee;
+    padding-left: 10px;
+}
+
+.content {
+    float: left;
+    width: 660px;
+}
+
+.img-float {
+    max-width: 350px;
+}
+
+header {
+    padding: 10px;
+}
+
+h1 {
+    margin: 0;
+    float: left;
+}
+
+header ul {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+}
+
+header li {
+    float: left;
+    margin: 0 0 0 10px;
+}
+
+header li a {
+    display: block;
+    background: #ccc;
+    padding: 10px 15px;
+}
+
+li a {
+    text-decoration: none;
+    color: #000;
+}
+
+footer {
+    clear: left;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+}
+
+header li.current a {
+    color: #ccc;
+    background: black;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.columns .column:first-child p {
+    margin-right: 10px;
+}
+
+.img-with-caption {
+    position: relative;
+    float: left;
+    margin: 2px 10px 10px 0;
+}
+
+.caption {
+    width: 100%;
+    background: rgba(0,0,0,.7);
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.caption p {
+    margin: 0;
+    padding: 10px;
+    font: 14px/18px arial;
+}

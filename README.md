@@ -68,3 +68,92 @@ FEWD Outline
 #### Homework
 
 - http://mainequarterly.com
+- Ski site
+
+### Session 04
+
+- Review positioning and layout
+- HTML forms and styles
+- HTML tables and styles
+- Job board code along
+
+#### Homework
+
+- Complete job board layout
+
+### Session 05
+
+- Twitter Bootstrap
+- Job board code along using Bootstrap
+
+#### Homework
+
+- Complete job board layout using Bootstrap
+- Treks layout using Bootstrap
+
+### Session 06
+
+- Intro to programming
+- JavaScript using Node
+
+### Session 07
+
+- JavaScript using Node cont.
+
+### Session 08
+
+- JavaScript in the browser
+- jQuery
+
+### Session 09
+
+- jQuery cont.
+- Task manager
+
+### Session 10
+
+- Bootstrap JS
+- Task manager cont.
+
+### Session 11
+
+- Photo gallery
+
+### Session 12
+
+- Intro to Ajax/JSON
+- Task manager with a Node.js API
+
+### Session 13
+
+- Foursquare API Project
+- Final project planning
+
+### Session 14
+
+- Intro to MVC frameworks
+
+### Session 15
+
+- Mobile topics
+- HTML/CSS review
+
+### Session 16
+
+- Student choice
+
+### Session 17
+
+- Student choice
+
+### Session 18
+
+Final presentation prep
+
+### Session 19
+
+Final presentations
+
+### Session 20
+
+Final presentations
