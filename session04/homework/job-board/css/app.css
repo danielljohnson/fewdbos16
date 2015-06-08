@@ -1,0 +1,177 @@
+body {
+    background: #466f82 url(../images/bodyBg.gif) repeat-x;
+}
+
+.clear {
+    clear: both;
+}
+
+/* structure */
+#container {
+    width: 960px;
+    margin: 20px auto;
+}
+
+#content {
+    clear: both;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+}
+
+#liveSearch {
+    background: #4a7386;
+    height: 120px;
+    padding: 20px 20px 10px;
+    border-radius: 5px;
+}
+
+#contentLeft {
+    float: left;
+    width: 600px;
+    margin: 15px 0;
+    padding-left: 10px;
+}
+
+#contentRight {
+    float: left;
+    width: 300px;
+    margin: 15px 0 0 20px;
+}
+    
+/* lists */
+#globalNav {
+    float: right;
+    list-style: none;
+    margin: 20px 0;
+}   
+
+#globalNav li {
+    float: left;
+    margin-left: 50px;
+}
+
+#globalNav li a {
+    color: #fff;
+    font: 12px arial;
+    text-decoration: none;
+}
+
+#globalNav li a:hover {
+    text-decoration: underline;
+}
+
+/* headers */
+h2 {
+    text-transform: uppercase;
+    color: #231f20;
+    font: bold 16px arial;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font: bold 18px arial;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 5px 0 20px;
+}
+
+/* paragraphs */
+p {
+    font: 12px arial;
+    color: #231f20;
+    margin-bottom: 10px;
+}
+
+p.grayText {
+    font: bold 13px arial;
+    color: #767769;
+}
+
+/* forms */
+#contentRight label {
+    color: #231f20;
+    display: block;
+    margin-bottom: 4px;
+}
+
+#contentRight input[type="text"],
+#contentRight textarea {
+    border: none;
+    background: #e1e9ee;
+    padding: 8px;
+    width: 284px;
+    border-radius: 5px;
+}
+
+#contentRight textarea {
+    height: 100px;
+}
+
+#contentRight input[type="submit"] {
+    background: #809ead;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 7px 15px;
+    display: block;
+    text-transform: uppercase;
+    font: 14px arial;
+    cursor: pointer;
+}
+
+#liveSearch form p {
+    float: left;
+    margin-right: 25px;
+}
+
+#liveSearch label {
+    font: 12px arial;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 4px;
+}
+
+#liveSearch input[type="text"] {
+    border: none;
+    background: #ffffff;
+    padding: 8px;
+    width: 284px;
+    border-radius: 5px;
+}
+
+/* tables */
+#contentLeft table {
+    width: 600px;
+    margin-top: 20px;
+}
+
+#contentLeft th {
+    text-align: left;
+    font: bold 12px arial;
+    color: #1b1719;
+    border-bottom: 1px solid #edf0ee;
+    padding-bottom: 10px;
+}
+
+#contentLeft td {
+    font: 12px arial;
+    color: #231f20;
+    padding-top: 15px;
+}
+
+#contentLeft tbody td:nth-child(3) {
+    width: 80px;
+}
+
+#contentLeft tbody td:nth-child(3) a {
+    display: block;
+    background: #959a8f;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    padding: 3px 4px;
+    font: 12px arial;
+}
