@@ -93,12 +93,28 @@ FEWD Outline
 
 ### Session 06
 
+- Intro to command line
 - Intro to programming
 - JavaScript using Node
+    - Data types
+    - Variables
+    - Operators
+    - Conditionals
+    - Loops
+    - Functions
+- First three world problems
+
+#### Homework
+
+- Last three word problems
 
 ### Session 07
 
-- JavaScript using Node cont.
+- Arrays
+- Practice in teams
+- Objects
+    - built in objects, props, and methods
+    - Literals vs. constructors
 
 ### Session 08
 
