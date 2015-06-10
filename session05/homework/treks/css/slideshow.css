@@ -1,0 +1,45 @@
+@-webkit-keyframes hero1 {
+    0% { opacity: 1; }
+    
+    5% { opacity: 0; }
+    
+    25% { opacity: 0; }
+    50% { opacity: 0; }
+    
+    55% { opacity: 1; }
+    
+    75% { opacity: 1; }
+    100% { opacity: 1; }
+}
+
+@-webkit-keyframes hero2 {
+    0% { opacity: 0; }
+    
+    5% { opacity: 1; }
+    
+    25% { opacity: 1; }
+    50% { opacity: 1; }
+    
+    55% { opacity: 0; }
+    
+    75% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+#hero1 {
+    -webkit-animation: hero1 10s linear 5s infinite;
+}
+
+#hero2 {
+    -webkit-animation: hero2 10s linear 5s infinite;
+}
+
+.hero:target {
+    -webkit-animation: none !important;
+    opacity: 1 !important;
+}
+
+.hero:target ~ .hero {
+    -webkit-animation: none !important;
+    opacity: 0 !important;
+}
