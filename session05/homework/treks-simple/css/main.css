@@ -1,0 +1,43 @@
+body {
+    background: url('../images/body_bg.png') repeat-x 0 70px;
+    margin: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.content {
+    background: red;
+    padding: 0 10px 10px;
+}
+
+.topContentLeft {
+    float: left;
+    width: 190px;
+    background: #999;
+    height: 525px; /* this is temporary */
+}
+
+.topContentRight {
+    float: left;
+    width: 750px;
+    background: #666;
+    height: 525px; /* this is temporary */
+}
+
+nav {
+    margin: 10px 0 0;
+    height: 75px;
+    background: #444;
+}
+
+.bottomContent {
+    background: #333;
+    height: 150px; /* this is temporary */
+}
