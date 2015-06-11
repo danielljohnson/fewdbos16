@@ -69,7 +69,3 @@ var mikesTruck = new Truck('blue');
 
 console.log(dansTruck.color);
 console.log(mikesTruck.color);
-
-// Twitter exercise
-
-// What objects exist in a Twitter app, create those as JS
