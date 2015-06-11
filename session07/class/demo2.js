@@ -14,7 +14,7 @@ var shoppingList = [{
     quantity: 4
 }];
 
-console.log(shoppingList[1].price);
+console.log(shoppingList[2].quantity);
 
 // totalCost(shoppingList) {}
 
