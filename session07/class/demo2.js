@@ -15,7 +15,3 @@ var shoppingList = [{
 }];
 
 console.log(shoppingList[2].quantity);
-
-// totalCost(shoppingList) {}
-
-// mostExpensive(shoppingList) {}
