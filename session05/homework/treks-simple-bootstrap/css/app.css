@@ -1,0 +1,58 @@
+body {
+    background: url('../images/body_bg.png') repeat-x 0 70px;
+}
+
+.content {
+    background: red;
+}
+
+.topContentLeft {
+    width: 24%;
+    margin-left: 1%;
+    background: #999;
+    height: 525px; /* this is temporary */
+}
+
+.topContentRight {
+    width: 74%;
+    padding-left: 0;
+    padding-right: 0;
+    background: #666;
+    height: 525px; /* this is temporary */
+}
+
+nav {
+    margin-top: 1%;
+    background: #444;
+    height: 75px; /* this is temporary */
+}
+
+.bottomContent {
+    background: #333;
+    height: 150px; /* this is temporary */
+    width: 98%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
+
+footer {
+    margin: 15px 0 0;
+}
+
+@media screen and (max-width: 767px) {
+    .topContentLeft {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .topContentRight {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .bottomContent {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+}
