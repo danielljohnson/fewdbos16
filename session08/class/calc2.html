@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+
+<form id="#">
+    <p><label>First Number: </label>
+    <input type="text" name="first_number"></p>
+
+    <p><label>Last Number: </label>
+    <input type="text" name="last_number"></p>
+
+    <p><label>Operator: </label>
+    <select name="operator">
+        <option value="add">Add</option>
+        <option value="subtract">Subtract</option>
+    </select></p>
+
+    <p><input type="submit" name="submit"></p>
+</form>
+
+<div id="answer"></div>
+
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+
+$('#calcForm').on('submit', function(e) {
+    e.preventDefault();
+
+    var firstNumber = parseFloat($('input[name="first_number"]').val());
+    var lastNumber = parseFloat($('input[name="last_number"]').val());
+    var operator = $('select[name="operator"]').val();
+
+    if (operator === 'add') {
+        
+    }
+
+    if (operator === 'subtract') {
+        
+    }
+});
+
+</script>
+
+</body>
+</html>
+
+
+

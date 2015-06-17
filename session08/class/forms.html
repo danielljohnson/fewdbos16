@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+
+<form id="contactForm">
+    <p><label>First Name: </label>
+    <input type="text" name="first_name"></p>
+
+    <p><label>Last Name: </label>
+    <input type="text" name="last_name"></p>
+
+    <p><input type="submit" name="submit"></p>
+</form>
+
+<div id="content">hello</div>
+
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+
+$('#contactForm').on('submit', function(e) {
+    e.preventDefault();
+
+    var firstName = $('input[name="first_name"]').val();
+    var lastName = $('input[name="last_name"]').val();
+
+    $('#content')
+        .html('<p>' + firstName + ' ' + lastName + '</p>')
+        .hide()
+        .fadeIn();
+});
+
+</script>
+
+</body>
+</html>
+
+
+

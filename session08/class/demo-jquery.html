@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Company ABC</h1>
+
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </header>
+
+    <div id="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <p><a id="googleLink" href="http://google.com">Click here</a></p>
+    </div>
+
+    <footer>
+        <p>&copy; 2015</p>
+    </footer>
+</div>
+
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+    
+// DOM traversal
+var contentElement = $('#content');
+var divElements = $('div');
+var firstDivElement = $('div:eq(0)');
+
+// DOM manipulation
+$('li:eq(0)').html('<a href="#">Somewhere</a>');
+
+// Events
+$('#googleLink').on('click', function(e) {
+    e.preventDefault();
+
+    $('footer').fadeOut();
+});
+
+</script>
+
+</body>
+</html>

@@ -96,12 +96,12 @@ FEWD Outline
 - Intro to command line
 - Intro to programming
 - JavaScript using Node
-    - Data types
-    - Variables
-    - Operators
-    - Conditionals
-    - Loops
-    - Functions
+    - data types
+    - variables
+    - operators
+    - conditionals
+    - loops
+    - functions
 - First three world problems
 
 #### Homework
@@ -119,7 +119,14 @@ FEWD Outline
 ### Session 08
 
 - JavaScript in the browser
-- jQuery
+    - places to write JavaScript
+    - using the console
+    - alert and prompt
+- JavaScript and the DOM
+- Intro to jQuery
+    - selectors
+    - events
+    - DOM manipulation
 
 ### Session 09
 
