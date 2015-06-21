@@ -30,3 +30,23 @@ $('.task-form').on('submit', function(e) {
     // clear form field
     $('.task-form input[name="task"]').val('');
 });
+
+// updating status
+$('.task-list').on('click', '> li', function(e) {
+    e.preventDefault();
+
+    var status = $(e.target).attr('data-status');
+
+    if (parseInt(status) === 0) {
+        $(e.target).attr('data-status', 2);
+    } else {
+        $(e.target).attr('data-status', 0);
+    }
+});
+
+// remove completed
+$('.remove-completed').on('click', function(e) {
+    e.preventDefault();
+
+    $('.task-list li[data-status="2"]').remove();
+});
