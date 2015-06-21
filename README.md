@@ -131,21 +131,22 @@ FEWD Outline
 ### Session 09
 
 - jQuery cont.
+- Photo gallery
 - Task manager
 
 ### Session 10
 
-- Bootstrap JS
 - Task manager cont.
 
 ### Session 11
 
-- Photo gallery
+- Intro to Ajax/JSON
+- Task manager with a Node.js API
 
 ### Session 12
 
-- Intro to Ajax/JSON
-- Task manager with a Node.js API
+- Bootstrap JS
+- Spotify Project
 
 ### Session 13
 
