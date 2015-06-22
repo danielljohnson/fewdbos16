@@ -136,21 +136,20 @@ FEWD Outline
 
 ### Session 10
 
-- Task manager cont.
-
-### Session 11
-
 - Intro to Ajax/JSON
 - Task manager with a Node.js API
 
+### Session 11
+
+- Foursquare API Project
+
 ### Session 12
 
-- Bootstrap JS
 - Spotify Project
 
 ### Session 13
 
-- Foursquare API Project
+- Bootstrap JS
 - Final project planning
 
 ### Session 14

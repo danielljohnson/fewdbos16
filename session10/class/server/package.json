@@ -1,0 +1,13 @@
+{
+  "name": "fewd-api",
+  "description": "FEWD API",
+  "version": "0.0.1",
+  "dependencies": {
+    "body-parser": "^1.10.2",
+    "express": "^4.11.1",
+    "lodash": "^3.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
