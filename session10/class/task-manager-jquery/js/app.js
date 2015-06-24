@@ -50,3 +50,32 @@ $('.remove-completed').on('click', function(e) {
 
     $('.task-list li[data-status="2"]').remove();
 });
+
+// GET request for categories and then populate DOM
+$.get('http://localhost:3000/categories').then(function(response) {
+    $('ul.task-list').empty();
+
+    for (var i = 0; i < response.length; i++) {
+        $('ul.task-list').append('<li>' + response[i].name + '<ul data-categoryId="'+response[i].id+'"></ul></li>');
+    }
+});
+
+// create a category using ajax
+var postData = {
+    name: 'School'
+};
+
+$.ajax({
+    url: 'http://localhost:3000/categories',
+    type: 'post',
+    data: JSON.stringify(postData),
+    contentType: 'application/json'
+}).then(function(response) {
+    console.log(response);
+});
+
+
+
+
+
+
