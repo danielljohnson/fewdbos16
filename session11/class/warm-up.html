@@ -7,7 +7,7 @@
 
 <p class="exercise1"></p>
 
-<p class="exercise2"><span class="num1">5</span> + <span class="num1">10</span> = <span class="answer"></span></p>
+<p class="exercise2"><span class="num1">5</span> + <span class="num2">10</span> = <span class="answer"></span></p>
 
 <ul class="exercise3"></ul>
 
@@ -18,11 +18,37 @@
     
 // 1. Write a loop that adds all odd numbers between 1 and 50, then put the answer into .exercise1
 
+var sum = 0;
+
+for (var i = 0; i <= 50; i++) {
+  if (i % 2 !== 0) {
+    sum += i;
+  }
+}
+
+$('.exercise1').text(sum);
+
 // 2. Get the sum of .exercise2 .num1 and .exercise2 .num2 and put that into .exercise2 .answer
+
+// select .exercise2 .num1 and get the content
+var num1 = $('.exercise2 .num1').text();
+// select .exercise2 .num2 and get the content
+var num2 = $('.exercise2 .num2').text();
+
+// convert both to numbers and add them
+var sum2 = parseInt(num1) + parseInt(num2);
+
+// select the .exercise2 .answer and put the sum there
+$('.exercise2 .answer').text(sum2);
 
 // 3. Using the following weather array, add an li tag for each weather type into .exercise3
 
 var weather = ['sunny', 'rainy', 'cloudy', 'snow', 'hail'];
+
+// loop through all the weather items
+for (var i = 0; i < weather.length; i++) {
+  $('.exercise3').append('<li>' + weather[i] + '</li>');
+}
 
 // 4. Create a list of albums (name and image) from the following JSON structure, perhaps each one is a header and an image tag, place the HTML into .exercise4
 
