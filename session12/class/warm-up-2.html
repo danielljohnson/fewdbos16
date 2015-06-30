@@ -22,9 +22,38 @@
 <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script type="text/javascript">
     
-// 1. Write some code that results in .exercise1 containing the numbers 1,2,3,4,5,4,3,2,1 (count up to 5 and then back down again with a comma in between each number)
+// 1. Write some code that results in .exercise1 containing the numbers '1,2,3,4,5,4,3,2,1' (count up to 5 and then back down again with a comma in between each number)
+
+for (var i = 1; i < 5; i++) {
+    $('.exercise1').append(i + ',');
+}
+
+for (var i = 5; i > 0; i--) {
+    if (i === 1) {
+        $('.exercise1').append(i);
+    } else {
+        $('.exercise1').append(i + ',');
+    }
+}
 
 // 2. Select all the animals from the .exercise2 ul that are a primary color (red, blue, yellow), then put those into .exercise2 .answer as a string, the result should be 'bird, duck, horse'
+
+var animals = $('.exercise2 ul li');
+var newContent = '';
+
+for (var i = 0; i < animals.length; i++) {
+    var textContents = $(animals[i]).text();
+
+    if (
+        textContents.indexOf('red') > -1 || 
+        textContents.indexOf('blue') > -1 || 
+        textContents.indexOf('yellow') > -1
+    ) {
+        newContent += textContents.split(' ')[1] + ',';
+    }
+}
+
+$('.answer').html(newContent.substring(0, newContent.length - 1));
 
 </script>
 
