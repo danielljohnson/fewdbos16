@@ -141,29 +141,30 @@ FEWD Outline
 
 ### Session 11
 
-- Foursquare API Project
-
-### Session 12
-
+- jQuery and Ajax review
 - Spotify Project
 
-### Session 13
+### Session 12
 
 - Bootstrap JS
 - Final project planning
 
+### Session 13
+
+- Foursquare Project
+
 ### Session 14
 
-- Intro to MVC frameworks
+- HTML/CSS review
+- More advanced HTML/CSS layouts
 
 ### Session 15
 
 - Mobile topics
-- HTML/CSS review
 
 ### Session 16
 
-- Student choice
+- Student choice (Google maps, D3)
 
 ### Session 17
 
