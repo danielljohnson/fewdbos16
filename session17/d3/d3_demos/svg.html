@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title></title>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script type="text/javascript">
+$(function() {
+    $('#greenSquare').on('click', function() {
+        $(this).attr('transform', 'rotate(45, 25, 25)');
+    });
+});
+</script>
+</head>
+<body>
+    
+<!-- http://www.w3schools.com/svg/svg_examples.asp -->
+    
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <circle cx="50" cy="50" r="40" fill="red" />
+    
+    <!-- rotate relative to window -->
+    <rect x="150" y="150" width="300" height="100" fill="blue" transform="rotate(45, 300, 200)" />
+    
+    <!-- rotate relative to parent -->
+    <g transform="translate(100,70)">
+        <rect id="greenSquare" width="50" height="50" fill="green" transform="rotate(0, 25, 25)" />
+    </g>
+</svg>
+
+</body>
+</html>
