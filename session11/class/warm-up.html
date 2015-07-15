@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+
+<p class="exercise1"></p>
+
+<p class="exercise2"><span class="num1">5</span> + <span class="num1">10</span> = <span class="answer"></span></p>
+
+<ul class="exercise3"></ul>
+
+<div class="exercise4"></div>
+
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+    
+// 1. Write a loop that adds all odd numbers between 1 and 50, then put the answer into .exercise1
+
+// 2. Get the sum of .exercise2 .num1 and .exercise2 .num2 and put that into .exercise2 .answer
+
+// 3. Using the following weather array, add an li tag for each weather type into .exercise3
+
+var weather = ['sunny', 'rainy', 'cloudy', 'snow', 'hail'];
+
+// 4. Create a list of albums (name and image) from the following JSON structure, perhaps each one is a header and an image tag, place the HTML into .exercise4
+
+var music = {
+  "albums" : {
+    "href" : "https://api.spotify.com/v1/search?query=Less+Than+Jake&offset=0&limit=2&type=album",
+    "items" : [ {
+      "album_type" : "album",
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/2Csf9jkWwwusFvIW7DppX7"
+      },
+      "href" : "https://api.spotify.com/v1/albums/2Csf9jkWwwusFvIW7DppX7",
+      "id" : "2Csf9jkWwwusFvIW7DppX7",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/684de1e730307f8dbb37092d39bc994e4743411a",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/3f517410899c8f234dc7b6fd6b9de832418829ee",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/22d670038c068c98dd1c28cb3d81f1c32a3a0e68",
+        "width" : 64
+      } ],
+      "name" : "Anthem",
+      "type" : "album",
+      "uri" : "spotify:album:2Csf9jkWwwusFvIW7DppX7"
+    }, {
+      "album_type" : "album",
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/2F9QXXQKnqqyzI1u4UK1Ss"
+      },
+      "href" : "https://api.spotify.com/v1/albums/2F9QXXQKnqqyzI1u4UK1Ss",
+      "id" : "2F9QXXQKnqqyzI1u4UK1Ss",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/988b1732adef59795a2983cb164fb63400c3cecb",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/61bf43ff3c0fb202d4d56e94fdbdb97200b538c2",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/52b8dd80277649e033c765b3ea0ae36dd203bee3",
+        "width" : 64
+      } ],
+      "name" : "Hello Rockview",
+      "type" : "album",
+      "uri" : "spotify:album:2F9QXXQKnqqyzI1u4UK1Ss"
+    }],
+    "limit" : 2,
+    "next" : "https://api.spotify.com/v1/search?query=Less+Than+Jake&offset=20&limit=20&type=album",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 49
+  }
+}
+
+</script>
+
+</body>
+</html>
