@@ -19,6 +19,7 @@ $headers = "From: $email" . "\r\n" . 'Reply-To: webmaster@example.com';
 // send email
 if (mail($to, $subject, $message, $headers)) {
     echo 'success!';
+    // header('Location: index.html');
 } else {
     echo 'fail!';
 }
