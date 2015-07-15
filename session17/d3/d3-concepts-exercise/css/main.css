@@ -1,0 +1,39 @@
+/* A (ridiculously) simplified version of normalize.css */
+html, body, div, h1, p {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Set up a default font and some padding to provide breathing room */
+body {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    padding: 16px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+/* D3 chart styles */
+.chart rect {
+    fill: SeaGreen;
+}
+
+.chart .symbol {
+    font-size: 10px;
+}
+
+.chart .allocation {
+    fill: white;
+    font-size: 10px;
+    text-anchor: end;
+}

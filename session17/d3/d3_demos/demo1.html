@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title></title>
+<style type="text/css">
+
+div.bar {
+    display: inline-block;
+    width: 20px;
+    background-color: teal;
+    margin-right: 2px;
+}
+
+</style>
+</head>
+<body>
+
+<p>First</p>
+
+<p>Second</p>
+
+<p>Third</p>
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script type="text/javascript">
+
+// without D3
+var paragraphs = document.getElementsByTagName('p');
+
+for (var i = 0; i < paragraphs.length; i++) {
+    paragraphs[i].style.color = 'red'
+}
+
+// with D3
+// d3.selectAll('p').style('color', 'red');
+
+// d3.select('body p:first-child').style('color', 'blue');
+
+// d3.selectAll('p').text(function(d, i) {
+//     return 'Paragraph ' + i;
+// });
+
+// D3 with dynamic data
+// var dataset = [5, 10, 15, 20, 25];
+
+// d3.select('body').selectAll('p')
+//     .data(dataset)
+//     .enter()
+//     .append('p')
+//     .text('New paragraph!');
+
+// d3.select('body').selectAll('p')
+//     .data(dataset)
+//     .enter()
+//     .append('p')
+//     .text('New paragraph!')
+//     .style('color', function(d) {
+//         if (d > 15) {
+//             return 'blue';
+//         } else {
+//             return 'red';
+//         }
+//     });
+
+// d3.select("body").selectAll("p")
+//     .data(dataset)
+//     .enter()
+//     .append("p")
+//     .text(function(d) {
+//         return "I can count up to " + d;
+//     });
+
+// d3.select("body").selectAll("div")
+//     .data(dataset)
+//     .enter()
+//     .append("div")
+//     .attr("class", "bar")
+//     .style("height", function(d) {
+//         return d * 5 + "px";
+//     });
+
+// var svg = d3.select("body").append("svg");
+
+// var circles = svg.selectAll("circle")
+//     .data(dataset)
+//     .enter()
+//     .append("circle");
+
+// circles.attr("cx", function(d, i) {
+//         return (i * 80) + 25;
+//     })
+//     .attr("cy", 100)
+//     .attr("r", function(d) {
+//         return d;
+//     })
+//     .attr("fill", "yellow")
+//     .attr("stroke", "orange")
+//     .attr("stroke-width", function(d) {
+//         return d/2;
+//     });
+
+</script>
+</body>
+</html>
