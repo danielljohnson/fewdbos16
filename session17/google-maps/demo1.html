@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title></title>
+<style type="text/css">
+    html, body, #map-canvas { height: 100%; margin: 0; padding: 0;}
+</style>
+</head>
+<body>
+
+<!-- <iframe
+  width="600"
+  height="450"
+  frameborder="0" style="border:0"
+  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBa78qdA54N4BbtPGEPwvgDEAmS8dKFe70&amp;q=General+Assembly,Boston+MA" 
+  allowfullscreen>
+</iframe> -->
+
+<div id="map-canvas"></div>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBa78qdA54N4BbtPGEPwvgDEAmS8dKFe70"></script>
+<script type="text/javascript">
+
+function init() {
+    var mapCenter = new google.maps.LatLng(42.359968, -71.060093);
+
+    var map = new google.maps.Map(document.getElementById('map-canvas'), {
+        zoom: 15,
+        center: mapCenter,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var marker = new google.maps.Marker({
+        map: map,
+        position: mapCenter
+    });
+
+    var infowindow = new google.maps.InfoWindow({
+        content: 'Hello Boston!'
+    });
+
+    google.maps.event.addListener(marker, 'click', function() {
+        infowindow.open(map, marker);
+    });
+}
+
+google.maps.event.addDomListener(window, 'load', init);
+
+</script>
+
+</body>
+</html>
